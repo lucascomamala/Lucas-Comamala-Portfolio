@@ -15,10 +15,6 @@ header {
   text-decoration: none;
 }
 
-nav {
-  padding-right: 32px;
-}
-
 h1 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -58,7 +54,6 @@ p {
   height: 590px;
   background-color: #1c1a19;
   background-image: url('./media/Illustration-header-mobile.svg');
-  
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -93,11 +88,19 @@ ul {
 }
 
 .social-icons {
-  color: #DBD8D7;
+  color: #dbd8d7;
   padding: 8px;
 }
 
 /* Nav Bar */
+nav {
+  padding-right: 32px;
+}
+
+.fa-bars {
+  color: white
+}
+
 .logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
