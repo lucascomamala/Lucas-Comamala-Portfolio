@@ -10,6 +10,10 @@ GitHub repository for my personal portfolio
 - CSS
 - Figma template
 
+## Live Demo
+
+Available Soon!
+
 ## Author
 
 👤 **Lucas Comamala**
@@ -32,3 +36,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The Microverse Team
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
