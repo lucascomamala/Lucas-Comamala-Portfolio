@@ -65,10 +65,7 @@ ul {
   align-items: center;
 }
 
-#name {
-  text-decoration: none;
-}
-
+/* Background Image */
 .image {
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -112,4 +109,5 @@ nav {
   text-align: center;
   color: #fff;
   padding: 10px 12px;
+  text-decoration: none;
 }
