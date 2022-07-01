@@ -23,7 +23,8 @@ ul {
   height: 48px;
   background: #f55800;
   border: 1px solid #f55800;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -101,7 +102,8 @@ nav {
 }
 
 #main-title {
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -128,7 +130,7 @@ nav {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 /* Background Image */
@@ -162,7 +164,8 @@ nav {
 }
 
 #works-title {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -192,19 +195,21 @@ nav {
 
 .mainp-title {
   height: 36px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   margin-top: 22px;
 }
 
 .mainp-paragraph {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -218,7 +223,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   margin-bottom: 10px;
 }
@@ -230,19 +235,18 @@ nav {
   padding: 10px 12px;
   background: #fff;
   border: 1px solid #8993a4;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .mainp-tags:hover {
   background-color: rgb(214, 214, 214);
 }
-
-.mainp-see {}
 
 #projects-container {
   display: grid;
@@ -256,17 +260,17 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /*background-color: gray;*/
   background-image: url('./media/projects-background.png');
   background-repeat: no-repeat;
-  margin: 20px 0px;
+  margin: 20px 0;
   width: 327px;
   height: 350px;
 }
 
 .otherp-title {
   height: 81px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -276,7 +280,8 @@ nav {
 
 .otherp-paragraph {
   height: 87px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -288,7 +293,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   margin-bottom: 10px;
 }
@@ -299,7 +304,8 @@ nav {
   align-items: center;
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -332,24 +338,26 @@ nav {
 
 #about-title {
   height: 79px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #ff6B00;
+  color: #ff6b00;
 }
 
 #about-paragraph {
   width: 327px;
   height: 148px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 #resume-button {
@@ -357,7 +365,7 @@ nav {
 }
 
 #separator {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   width: 330px;
 }
 
@@ -370,7 +378,7 @@ nav {
   justify-content: center;
   background-color: #1c1a19;
   width: 375px;
-  padding: 0px 24px 100px 24px;
+  padding: 0 24px 100px 24px;
 }
 
 #competencies-container {
@@ -390,7 +398,7 @@ nav {
 
 .competency-title {
   height: 24px;
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -402,12 +410,12 @@ nav {
 
 .competency-element {
   height: 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
+  ;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  /* or 194% */
   display: flex;
   align-items: center;
   text-align: center;
@@ -422,7 +430,7 @@ nav {
 #languages-bullet {
   width: 18px;
   height: 18px;
-  background: #ff6B00;
+  background: #ff6b00;
   transform: rotate(-45deg);
 }
 
@@ -430,13 +438,13 @@ nav {
 #frameworks-bullet {
   width: 18px;
   height: 18px;
-  background: #ff6B00;
+  background: #ff6b00;
 }
 
 /* Rectangle 57 */
 #skills-bullet {
   width: 18px;
   height: 18px;
-  background: #ff6B00;
+  background: #ff6b00;
   border-radius: 150px;
 }
