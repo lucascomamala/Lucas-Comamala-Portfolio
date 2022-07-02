@@ -3,16 +3,13 @@
 # Portfolio Project
 
 GitHub repository for my personal portfolio
+[View it here!](https://lucascomamala.github.io/Lucas-Comamala-Portfolio/)
 
 ## Built With
 
 - HTML
 - CSS
 - Figma template
-
-## Live Demo
-
-Available Soon!
 
 ## Author
 
