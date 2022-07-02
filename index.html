@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -14,27 +14,166 @@
 </head>
 
 <body>
-  <header>
-    <h2 class="logo">
-      <a id="name" href="/" class="logo">Lucas Comamala</a>
-    </h2>
-    <nav>
-      <a href="#"><i class="fa fa-bars"></i></a>
-    </nav>
-  </header>
-  <section class="headline">
-    <h1>Hey There. I’m Lucas</h1>
-    <h2>I’m a Software Developer</h2>
-    <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
-      don’t hestiate to contact me.</p>
-    <ul class="socials">
-      <li><a href="https://github.com/lucascomamala"><i class="social-icons fa-brands fa-github-alt"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons fa-brands fa-linkedin-in"></i></a></li>
-      <li><a href="#"><i class="social-icons fa-brands fa-medium"></i></a></li>
-      <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons fa-brands fa-twitter"></i></a></li>
-      <li><a href=""><i class="social-icons fa-brands fa-angellist"></i></a></li>
-    </ul>
-  </section>
+  <div id="container">
+    <header>
+      <h2 class="logo">
+        <a id="name" href="/" class="logo">Lucas Comamala</a>
+      </h2>
+      <nav>
+        <a href="#"><i class="fa fa-bars"></i></a>
+      </nav>
+    </header>
+    <section id="headline">
+      <h1 id="main-title">Hey There. I’m Lucas</h1>
+      <h2 id="main-subtitle">I’m a Software Developer</h2>
+      <p id="main-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
+        don’t hestiate to contact me.</p>
+      <ul id="socials">
+        <li><a href="https://github.com/lucascomamala"><i class="social-icons fa-brands fa-github-alt"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="social-icons fa-brands fa-medium"></i></a></li>
+        <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="social-icons fa-brands fa-angellist"></i></a></li>
+      </ul>
+    </section>
+
+    <section id="works">
+      <h2 id="works-title">My Recent Works</h2>
+
+      <div id="projects">
+
+        <div id="main-project">
+          <div id="featured-img"><img src="./media/placeholder.png" alt=""></div>
+          <h3 class="mainp-title">Multi-Post Stories</h3>
+          <p class="mainp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <div class="mainp-tag-container">
+            <span class="mainp-tags">CSS</span>
+            <span class="mainp-tags">HTML</span>
+            <span class="mainp-tags">Bootstrap</span>
+            <span class="mainp-tags">Ruby</span>
+          </div>
+          <div><button class="button mainp-see" type="button">See project</button></div>
+        </div>
+
+        <div id="projects-container">
+          <div class="other-projects" id="card1">
+            <h3 class="otherp-title">Profesional Art Printing Data</h3>
+            <p class="otherp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="otherp-tag-container">
+              <span class="otherp-tags">CSS</span>
+              <span class="otherp-tags">HTML</span>
+              <span class="otherp-tags">Bootstrap</span>
+              <span class="otherp-tags">Ruby</span>
+            </div>
+            <button class="button otherp-see" type="button">See project</button>
+          </div>
+
+          <div class="other-projects" id="card2">
+            <h3 class="otherp-title">Profesional Art Printing Data</h3>
+            <p class="otherp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="otherp-tag-container">
+              <span class="otherp-tags">CSS</span>
+              <span class="otherp-tags">HTML</span>
+              <span class="otherp-tags">Bootstrap</span>
+              <span class="otherp-tags">Ruby</span>
+            </div>
+            <button class="button otherp-see" type="button">See project</button>
+          </div>
+
+          <div class="other-projects" id="card3">
+            <h3 class="otherp-title">Profesional Art Printing Data</h3>
+            <p class="otherp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="otherp-tag-container">
+              <span class="otherp-tags">CSS</span>
+              <span class="otherp-tags">HTML</span>
+              <span class="otherp-tags">Bootstrap</span>
+              <span class="otherp-tags">Ruby</span>
+            </div>
+            <button class="button otherp-see" type="button">See project</button>
+          </div>
+
+          <div class="other-projects" id="card4">
+            <h3 class="otherp-title">Profesional Art Printing Data</h3>
+            <p class="otherp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="otherp-tag-container">
+              <span class="otherp-tags">CSS</span>
+              <span class="otherp-tags">HTML</span>
+              <span class="otherp-tags">Bootstrap</span>
+              <span class="otherp-tags">Ruby</span>
+            </div>
+            <button class="button otherp-see" type="button">See project</button>
+          </div>
+
+          <div class="other-projects" id="card5">
+            <h3 class="otherp-title">Profesional Art Printing Data</h3>
+            <p class="otherp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="otherp-tag-container">
+              <span class="otherp-tags">CSS</span>
+              <span class="otherp-tags">HTML</span>
+              <span class="otherp-tags">Bootstrap</span>
+              <span class="otherp-tags">Ruby</span>
+            </div>
+            <button class="button otherp-see" type="button">See project</button>
+          </div>
+
+          <div class="other-projects" id="card6">
+            <h3 class="otherp-title">Profesional Art Printing Data</h3>
+            <p class="otherp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+            <div class="otherp-tag-container">
+              <span class="otherp-tags">CSS</span>
+              <span class="otherp-tags">HTML</span>
+              <span class="otherp-tags">Bootstrap</span>
+              <span class="otherp-tags">Ruby</span>
+            </div>
+            <button class="button otherp-see" type="button">See project</button>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 id="about-title">About me</h2>
+      <p id="about-paragraph">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+        contact me.</p>
+
+      <button class="button" id="resume-button" type="button">Get My Resume</button>
+
+    </section>
+
+
+
+    <section id="competencies">
+      <div id="separator"></div>
+      <div id="competencies-container">
+        <ul class="competency-list" id="languages">
+          <li class="competency-title"><span class="bullet" id="languages-bullet"></span>Languages</li>
+          <li class="competency-element">Javascript</li>
+          <li class="competency-element">Ruby</li>
+          <li class="competency-element">HTML</li>
+          <li class="competency-element">CSS</li>
+        </ul>
+        <ul class="competency-list" id="frameworks">
+          <li class="competency-title"><span class="bullet" id="frameworks-bullet"></span>Frameworks</li>
+          <li class="competency-element">Bootstrap</li>
+          <li class="competency-element">Ruby on Rails</li>
+          <li class="competency-element">RSPec</li>
+          <li class="competency-element">CapyBara</li>
+          <li class="competency-element">Selenium</li>
+        </ul>
+        <ul class="competency-list" id="skills">
+          <li class="competency-title"><span class="bullet" id="skills-bullet"></span>Skills</li>
+          <li class="competency-element">Codekit</li>
+          <li class="competency-element">GitHub</li>
+          <li class="competency-element">Codepen</li>
+          <li class="competency-element">Gitlab</li>
+          <li class="competency-element">Terminal</li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
