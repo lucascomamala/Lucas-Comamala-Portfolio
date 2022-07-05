@@ -236,10 +236,6 @@ nav {
   background: #fff;
 }
 
-.mainp-tags > span:hover {
-  background-color: rgb(214, 214, 214);
-}
-
 #projects-container {
   display: flex;
   flex-direction: column;
@@ -308,6 +304,10 @@ nav {
   padding: 10px 12px;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
+}
+
+.mainp-tags > span:hover {
+  background-color: rgb(214, 214, 214);
 }
 
 .otherp-tags > span:hover {
@@ -390,7 +390,6 @@ nav {
 
 #competencies-container > ul > li {
   margin: 24px 0;
-
   font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
