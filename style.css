@@ -435,3 +435,61 @@ nav {
   background: #ff6b00;
   border-radius: 150px;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  padding: 120px 24px;
+  gap: 58px;
+  height: 844px;
+}
+
+#contact>p {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+}
+
+#contact-form>input {
+  width: 327px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: 0 solid;
+  border-bottom: 2px solid #dBd8d7;
+}
+
+#contact-form>textarea {
+  width: 327px;
+  height: 114px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #fbf8f7;
+  padding: 10px;
+}
