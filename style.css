@@ -55,6 +55,7 @@ header {
   padding: 0 12px;
   overflow: hidden;
 }
+
 @media only screen and (min-width: 992px) {
   header {
     padding: 0 100px;
@@ -93,6 +94,7 @@ header {
   float: right;
   display: block;
 }
+
 @media only screen and (min-width: 992px) {
   .topnav .bars {
     display: none;
@@ -165,7 +167,6 @@ header {
   color: #fff;
   max-width: 327px;
 }
-/* Social Media */
 
 #socials {
   display: flex;
@@ -556,6 +557,7 @@ header {
   padding: 10px;
   color: #505f79;
 }
+
 @media only screen and (min-width: 992px) {
   #headline {
     height: 870px;
@@ -686,6 +688,7 @@ header {
     margin-right: 100px;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   #headline-description {
     max-width: 566px;
