@@ -560,14 +560,14 @@ header {
 
 @media only screen and (min-width: 768px) {
   #headline {
-    height: 870px;
+    background-position: 100% 110%
   }
 
   #headline-container {
     flex-direction: row;
     align-items: center;
     width: auto;
-    margin-top: 290px;
+    margin-top: 150px;
   }
 
   #headline-text {
@@ -685,6 +685,10 @@ header {
     height: 870px;
     background-position: 100% 110%;
     background-image: url("./media/illustration-header.svg");
+  }
+
+  #headline-container {
+    margin-top: 290px;
   }
 
   #featured-img {
