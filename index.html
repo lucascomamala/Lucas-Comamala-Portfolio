@@ -15,138 +15,145 @@
 
 <body>
   <div id="container">
+
     <header>
-      <h2 class="logo">
-        <a id="logo" href="/">Lucas Comamala</a>
-      </h2>
-      <nav>
-        <a href="#"><i class="fa fa-bars"></i></a>
-      </nav>
+      <div class="topnav" id="myTopnav">
+        <a class="logo" href="#">Lucas Comamala</a>
+        <a href="#works" class="active">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="bars" href="#"><i class="fa fa-bars"></i></a>
+      </div>
     </header>
+
     <section id="headline">
-      <h1 id="main-title">Hey There. I’m Lucas</h1>
-      <h2 id="main-subtitle">I’m a Software Developer</h2>
-      <p id="main-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
-        don’t hestiate to contact me.</p>
-      <ul id="socials">
-        <li><a href="https://github.com/lucascomamala"><i class="social-icons fa-brands fa-github-alt"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons fa-brands fa-linkedin-in"></i></a></li>
-        <li><a href="#"><i class="social-icons fa-brands fa-medium"></i></a></li>
-        <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons fa-brands fa-twitter"></i></a></li>
-        <li><a href=""><i class="social-icons fa-brands fa-angellist"></i></a></li>
-      </ul>
+      <div id="headline-container">
+        <div id="headline-text">
+          <h1 id="headline-title">Hey There.<br>I’m Lucas</h1>
+          <h2 id="headline-subtitle">I’m a Software Developer</h2>
+          <p id="headline-description">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
+            don’t hestiate to contact me.</p>
+        </div>
+
+        <ul id="socials">
+          <li><a href="https://github.com/lucascomamala"><i class="social-icons fa-brands fa-github-alt"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="social-icons fa-brands fa-medium"></i></a></li>
+          <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="social-icons fa-brands fa-angellist"></i></a></li>
+        </ul>
+      </div>
     </section>
 
     <section id="works">
-      <h2 id="works-title">My Recent Works</h2>
+      <div id="works-title-container">
+        <h2 id="works-title">My Recent Works</h2>
+        <div id="separator1"></div>
+      </div>
+      <div id="main-project">
+        <img id="featured-img" src="./media/placeholder.png" alt="">
+        <h3 class="mainp-title">Multi-Post Stories</h3>
+        <p class="mainp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+        <div class="mainp-tags">
+          <span>CSS</span>
+          <span>HTML</span>
+          <span>Bootstrap</span>
+          <span>Ruby</span>
+        </div>
+        <button id="mainp-button" class="button" type="button">See project</button>
+      </div>
 
-      <div id="projects">
-
-        <div id="main-project">
-          <div id="featured-img"><img src="./media/placeholder.png" alt=""></div>
-          <h3 class="mainp-title">Multi-Post Stories</h3>
-          <p class="mainp-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-          <div class="mainp-tags">
+      <div id="projects-container">
+        <div class="other-projects" id="card1">
+          <h3>Profesional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <div class="otherp-tags">
             <span>CSS</span>
             <span>HTML</span>
             <span>Bootstrap</span>
             <span>Ruby</span>
           </div>
-          <div><button class="button mainp-see" type="button">See project</button></div>
+          <button class="button otherp-button" type="button">See project</button>
         </div>
 
-        <div id="projects-container">
-          <div class="other-projects" id="card1">
-            <h3>Profesional Art Printing Data</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <div class="otherp-tags">
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Bootstrap</span>
-              <span>Ruby</span>
-            </div>
-            <button class="button otherp-button" type="button">See project</button>
+        <div class="other-projects" id="card2">
+          <h3>Data Dashboard Healthcare</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <div class="otherp-tags">
+            <span>CSS</span>
+            <span>HTML</span>
+            <span>Bootstrap</span>
+            <span>Ruby</span>
           </div>
-
-          <div class="other-projects" id="card2">
-            <h3>Profesional Art Printing Data</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <div class="otherp-tags">
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Bootstrap</span>
-              <span>Ruby</span>
-            </div>
-            <button class="button otherp-button" type="button">See project</button>
-          </div>
-
-          <div class="other-projects" id="card3">
-            <h3>Profesional Art Printing Data</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <div class="otherp-tags">
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Bootstrap</span>
-              <span>Ruby</span>
-            </div>
-            <button class="button otherp-button" type="button">See project</button>
-          </div>
-
-          <div class="other-projects" id="card4">
-            <h3>Profesional Art Printing Data</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <div class="otherp-tags">
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Bootstrap</span>
-              <span>Ruby</span>
-            </div>
-            <button class="button otherp-button" type="button">See project</button>
-          </div>
-
-          <div class="other-projects" id="card5">
-            <h3>Profesional Art Printing Data</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <div class="otherp-tags">
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Bootstrap</span>
-              <span>Ruby</span>
-            </div>
-            <button class="button otherp-button" type="button">See project</button>
-          </div>
-
-          <div class="other-projects" id="card6">
-            <h3>Profesional Art Printing Data</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <div class="otherp-tags">
-              <span>CSS</span>
-              <span>HTML</span>
-              <span>Bootstrap</span>
-              <span>Ruby</span>
-            </div>
-            <button class="button otherp-button" type="button">See project</button>
-          </div>
+          <button class="button otherp-button" type="button">See project</button>
         </div>
+
+        <div class="other-projects" id="card3">
+          <h3>Profesional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <div class="otherp-tags">
+            <span>CSS</span>
+            <span>HTML</span>
+            <span>Bootstrap</span>
+            <span>Ruby</span>
+          </div>
+          <button class="button otherp-button" type="button">See project</button>
+        </div>
+
+        <div class="other-projects" id="card4">
+          <h3>Website Protfolio</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <div class="otherp-tags">
+            <span>CSS</span>
+            <span>HTML</span>
+            <span>Bootstrap</span>
+            <span>Ruby</span>
+          </div>
+          <button class="button otherp-button" type="button">See project</button>
+        </div>
+
+        <div class="other-projects" id="card5">
+          <h3>Profesional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <div class="otherp-tags">
+            <span>CSS</span>
+            <span>HTML</span>
+            <span>Bootstrap</span>
+            <span>Ruby</span>
+          </div>
+          <button class="button otherp-button" type="button">See project</button>
+        </div>
+
+        <div class="other-projects" id="card6">
+          <h3>Profesional Art Printing Data</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <div class="otherp-tags">
+            <span>CSS</span>
+            <span>HTML</span>
+            <span>Bootstrap</span>
+            <span>Ruby</span>
+          </div>
+          <button class="button otherp-button" type="button">See project</button>
+        </div>
+
       </div>
     </section>
 
     <section id="about">
-      <h2 id="about-title">About me</h2>
-      <p id="about-paragraph">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
-        contact me.</p>
+      <div id="about-container">
+        <h2 id="about-title">About me</h2>
+        <p id="about-paragraph">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+          contact me.</p>
 
-      <button class="button" id="resume-button" type="button">Get My Resume</button>
-
+        <button class="button" id="resume-button" type="button">Get My Resume</button>
+      </div>
     </section>
 
-
-
     <section id="competencies">
-      <div id="separator"></div>
+      <div id="separator2"></div>
       <div id="competencies-container">
         <ul id="languages">
-          <li><span class="bullet" id="languages-bullet"></span>Languages</li>
+          <li class="competency-title"><span class="bullet" id="languages-bullet"></span>Languages</li>
           <li>Javascript</li>
           <li>Ruby</li>
           <li>HTML</li>
@@ -181,6 +188,16 @@
       </form>
     </section>
 
+    <footer>
+      <div id="separator3"></div>
+      <ul id="footer-socials">
+        <li><a href="https://github.com/lucascomamala"><i class="social-icons2 fa-brands fa-github-alt"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons2 fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="social-icons2 fa-brands fa-medium"></i></a></li>
+        <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons2 fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="social-icons2 fa-brands fa-angellist"></i></a></li>
+      </ul>
+    </footer>
   </div>
 </body>
 
