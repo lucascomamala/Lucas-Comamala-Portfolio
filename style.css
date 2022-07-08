@@ -85,6 +85,16 @@ header {
   display: block;
   float: left;
 }
+.logo {
+  animation-name: rotation;
+  animation-duration: 4s;
+}
+
+@keyframes rotation {
+  to {
+    transform: rotateZ(1800deg);
+  }
+}
 
 .topnav a:not(:first-child) {
   display: none;
@@ -283,6 +293,9 @@ header {
   margin: 20px 0;
   background-repeat: no-repeat;
   width: 327px;
+}
+.other-projects:hover {
+  transform: scale(1.5);
 }
 
 #card1 {
