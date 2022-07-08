@@ -85,14 +85,15 @@ header {
   display: block;
   float: left;
 }
+
 .logo {
   animation-name: rotation;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 @keyframes rotation {
   to {
-    transform: rotateZ(1800deg);
+    transform: rotateZ(1080deg);
   }
 }
 
@@ -294,6 +295,7 @@ header {
   background-repeat: no-repeat;
   width: 327px;
 }
+
 .other-projects:hover {
   transform: scale(1.5);
 }
@@ -516,33 +518,62 @@ header {
   max-width: 327px;
 }
 
-#contact-form {
+#contact-form2 {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 0;
-  gap: 24px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.user-box {
+  position: relative;
   width: 100%;
 }
 
-#contact-form > input {
+.user-box input {
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
   width: 100%;
-  height: 48px;
-  padding: 10px;
-  border: 0 solid;
-  border-bottom: 2px solid #dbd8d7;
+  padding: 10px 10px 0;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
   outline: none;
-  background-color: transparent;
+  background: transparent;
 }
 
-#contact-form > textarea {
+.user-box label {
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #757575;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:not(:placeholder-shown) ~ label {
+  top: -30px;
+  left: 0;
+  color: #f55800;
+  font-size: 12px;
+}
+
+#contact-form2 > textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
@@ -551,6 +582,10 @@ header {
   padding: 10px;
   border: 0 solid;
   background-color: #fbf8f7;
+}
+
+#contact-form2 > .button {
+  margin-top: 30px;
 }
 
 #separator3 {
@@ -688,7 +723,7 @@ header {
     text-align: left;
   }
 
-  #contact-form {
+  #contact-form2 {
     align-items: flex-start;
   }
 }
@@ -718,7 +753,7 @@ header {
     margin-left: 100px;
   }
 
-  #contact-form {
+  #contact-form2 {
     margin-right: 100px;
   }
 }
@@ -734,5 +769,10 @@ header {
 
   #resume-button {
     margin-top: 0;
+  }
+
+  #contact > p {
+    margin-top: 100px;
+    min-width: 520px;
   }
 }

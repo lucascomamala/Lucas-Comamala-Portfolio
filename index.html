@@ -180,9 +180,15 @@
 
     <section id="contact">
       <p>I'm always interested in hearing about new projects, so if you'd like to chat please do get in touch!</p>
-      <form id="contact-form" action="https://formspree.io/f/xwkydlkr" method="post">
-        <input name="user_name" id="name" type="text" placeholder="Full Name" maxlength="30" required />
-        <input name="user_email" id="email" type="email" placeholder="Email address" required />
+      <form id="contact-form2" action="https://formspree.io/f/xwkydlkr" method="post">
+        <div class="user-box">
+          <input type="text" name="user_name" placeholder=" " maxlength="30" required />
+          <label>Full Name</label>
+        </div>
+        <div class="user-box">
+          <input type="email" name="user_email" placeholder=" " required />
+          <label>Email addres</label>
+        </div>
         <textarea name="user_msg" id="msg" placeholder="Enter text here" required></textarea>
         <button class="button" type="submit">Get in touch</button>
       </form>
