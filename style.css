@@ -50,16 +50,14 @@ ul {
 }
 
 header {
+  position: fixed;
   height: 48px;
   background: #3c3a39;
-  padding: 0 12px;
   overflow: hidden;
-}
-
-@media only screen and (min-width: 768px) {
-  header {
-    padding: 0 100px;
-  }
+  width: 100%;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
 }
 
 .topnav a {
@@ -104,20 +102,6 @@ header {
 .topnav a.bars {
   float: right;
   display: block;
-}
-
-@media only screen and (min-width: 768px) {
-  .topnav .bars {
-    display: none;
-  }
-
-  .topnav a:not(:first-child) {
-    display: block;
-  }
-
-  .topnav a.bars {
-    display: none;
-  }
 }
 
 .fa-bars {
@@ -606,6 +590,22 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    padding: 0 100px;
+  }
+
+  .topnav .bars {
+    display: none;
+  }
+
+  .topnav a:not(:first-child) {
+    display: block;
+  }
+
+  .topnav a.bars {
+    display: none;
+  }
+
   #headline {
     background-position: 100% 110%;
   }
