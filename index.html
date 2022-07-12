@@ -19,9 +19,11 @@
     <header>
       <div class="topnav" id="myTopnav">
         <a class="logo" href="#">Lucas Comamala</a>
-        <a href="#works" class="active">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <div id="nav-links">
+          <a href="#works" class="active">Portfolio</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
         <a class="bars" href="#"><i class="fa fa-bars"></i></a>
       </div>
     </header>
@@ -142,9 +144,8 @@
     <section id="about">
       <div id="about-container">
         <h2 id="about-title">About me</h2>
-        <p id="about-paragraph">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
           contact me.</p>
-
         <button class="button" id="resume-button" type="button">Get My Resume</button>
       </div>
     </section>
@@ -180,7 +181,7 @@
 
     <section id="contact">
       <p>I'm always interested in hearing about new projects, so if you'd like to chat please do get in touch!</p>
-      <form id="contact-form2" action="https://formspree.io/f/xwkydlkr" method="post">
+      <form id="contact-form" action="https://formspree.io/f/xwkydlkr" method="post">
         <div class="user-box">
           <input type="text" name="user_name" placeholder=" " maxlength="30" required />
           <label>Full Name</label>
