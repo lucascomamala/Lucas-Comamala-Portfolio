@@ -14,18 +14,20 @@
 </head>
 
 <body>
-  <div id="container">
 
-    <header>
-      <div class="topnav" id="myTopnav">
-        <a class="logo" href="#">Lucas Comamala</a>
+
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a class="logo" href="#">Lucas Comamala</a>
+      <div id="nav-links">
         <a href="#works" class="active">Portfolio</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a class="bars" href="#"><i class="fa fa-bars"></i></a>
       </div>
-    </header>
-
+      <a class="bars" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+  </header>
+  <main>
     <section id="headline">
       <div id="headline-container">
         <div id="headline-text">
@@ -142,9 +144,8 @@
     <section id="about">
       <div id="about-container">
         <h2 id="about-title">About me</h2>
-        <p id="about-paragraph">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
           contact me.</p>
-
         <button class="button" id="resume-button" type="button">Get My Resume</button>
       </div>
     </section>
@@ -180,7 +181,7 @@
 
     <section id="contact">
       <p>I'm always interested in hearing about new projects, so if you'd like to chat please do get in touch!</p>
-      <form id="contact-form2" action="https://formspree.io/f/xwkydlkr" method="post">
+      <form id="contact-form" action="https://formspree.io/f/xwkydlkr" method="post">
         <div class="user-box">
           <input id="user_name" type="text" name="user_name" placeholder=" " maxlength="30" required />
           <label for="user_name">Full Name</label>
@@ -193,18 +194,19 @@
         <button class="button" type="submit">Get in touch</button>
       </form>
     </section>
+  </main>
 
-    <footer>
-      <div id="separator3"></div>
-      <ul id="footer-socials">
-        <li><a href="https://github.com/lucascomamala"><i class="social-icons2 fa-brands fa-github-alt"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons2 fa-brands fa-linkedin-in"></i></a></li>
-        <li><a href="#"><i class="social-icons2 fa-brands fa-medium"></i></a></li>
-        <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons2 fa-brands fa-twitter"></i></a></li>
-        <li><a href="#"><i class="social-icons2 fa-brands fa-angellist"></i></a></li>
-      </ul>
-    </footer>
-  </div>
+  <footer>
+    <div id="separator3"></div>
+    <ul id="footer-socials">
+      <li><a href="https://github.com/lucascomamala"><i class="social-icons2 fa-brands fa-github-alt"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/lucas-comamala/"><i class="social-icons2 fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="#"><i class="social-icons2 fa-brands fa-medium"></i></a></li>
+      <li><a href="https://twitter.com/ComamalaLucas"><i class="social-icons2 fa-brands fa-twitter"></i></a></li>
+      <li><a href="#"><i class="social-icons2 fa-brands fa-angellist"></i></a></li>
+    </ul>
+  </footer>
+
 </body>
 
 </html>

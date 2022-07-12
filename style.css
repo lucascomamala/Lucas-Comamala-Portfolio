@@ -4,10 +4,15 @@
   padding: 0;
 }
 
-#container {
+body,
+main {
   display: flex;
   flex-direction: column;
   width: auto;
+}
+
+p {
+  text-align: justify;
 }
 
 ul {
@@ -50,14 +55,18 @@ ul {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   height: 48px;
   background: #3c3a39;
   overflow: hidden;
   width: 100%;
-  width: -moz-available;          /* WebKit-based browsers will ignore this. */
-  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: -moz-available;
+  width: -webkit-fill-available;
   width: fill-available;
+}
+
+#nav-links {
+  display: none;
 }
 
 .topnav a {
@@ -68,7 +77,7 @@ header {
   line-height: 20px;
   color: #fff;
   display: block;
-  float: right;
+  float: left;
   padding: 14px 16px;
 }
 
@@ -80,23 +89,11 @@ header {
 .topnav a.logo {
   font-size: 20px;
   font-weight: 700;
-  display: block;
-  float: left;
 }
 
 .logo {
   animation-name: rotation;
   animation-duration: 3s;
-}
-
-@keyframes rotation {
-  to {
-    transform: rotateZ(1080deg);
-  }
-}
-
-.topnav a:not(:first-child) {
-  display: none;
 }
 
 .topnav a.bars {
@@ -250,7 +247,7 @@ header {
   gap: 12px;
 }
 
-.mainp-tags > span {
+.mainp-tags span {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -278,10 +275,7 @@ header {
   margin: 20px 0;
   background-repeat: no-repeat;
   width: 327px;
-}
-
-.other-projects:hover {
-  transform: scale(1.5);
+  transition: transform 0.5s;
 }
 
 #card1 {
@@ -302,7 +296,7 @@ header {
   background-size: 327px 386px;
 }
 
-.other-projects > h3 {
+.other-projects h3 {
   font-family: "Crete Round", sans-serif;
   font-size: 32px;
   font-weight: 400;
@@ -314,7 +308,7 @@ header {
   width: auto;
 }
 
-.other-projects > p {
+.other-projects p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -333,7 +327,7 @@ header {
   gap: 12px;
 }
 
-.otherp-tags > span {
+.otherp-tags span {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -347,11 +341,11 @@ header {
   background: rgba(255, 255, 255, 0.24);
 }
 
-.mainp-tags > span:hover {
+.mainp-tags span:hover {
   background-color: rgb(214, 214, 214);
 }
 
-.otherp-tags > span:hover {
+.otherp-tags span:hover {
   background-color: rgb(214, 214, 214);
 }
 
@@ -386,7 +380,7 @@ header {
   color: #ff6b00;
 }
 
-#about-paragraph {
+#about p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -490,7 +484,7 @@ header {
   gap: 58px;
 }
 
-#contact > p {
+#contact p {
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -502,7 +496,7 @@ header {
   max-width: 327px;
 }
 
-#contact-form2 {
+#contact-form {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -554,7 +548,7 @@ header {
   font-size: 12px;
 }
 
-#contact-form2 > textarea {
+#contact-form textarea {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -567,7 +561,7 @@ header {
   background-color: #fbf8f7;
 }
 
-#contact-form2 > .button {
+#contact-form > .button {
   margin-top: 30px;
 }
 
@@ -590,22 +584,6 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
-  header {
-    padding: 0 100px;
-  }
-
-  .topnav .bars {
-    display: none;
-  }
-
-  .topnav a:not(:first-child) {
-    display: block;
-  }
-
-  .topnav a.bars {
-    display: none;
-  }
-
   #headline {
     background-position: 100% 110%;
   }
@@ -689,7 +667,7 @@ header {
     margin-left: 80px;
   }
 
-  #about-paragraph {
+  #about p {
     margin-left: 80px;
   }
 
@@ -717,17 +695,35 @@ header {
     flex-direction: row;
   }
 
-  #contact > p {
+  #contact p {
     margin-bottom: 100px;
     text-align: left;
   }
 
-  #contact-form2 {
+  #contact-form {
     align-items: flex-start;
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1069px) {
+  header {
+    position: fixed;
+    padding: 0 100px;
+  }
+
+  #nav-links {
+    display: block;
+    float: right;
+  }
+
+  .topnav .bars {
+    display: none;
+  }
+
+  .topnav a.bars {
+    display: none;
+  }
+
   #headline {
     height: 870px;
     background-position: 100% 110%;
@@ -743,16 +739,23 @@ header {
     height: 474px;
   }
 
+  .other-projects:hover {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 1;
+  }
+
   #about {
     background-image: url("./media/illustration-about-me.svg");
     background-position: 100% 25%;
   }
 
-  #contact > p {
+  #contact p {
     margin-left: 100px;
   }
 
-  #contact-form2 {
+  #contact-form {
     margin-right: 100px;
   }
 }
@@ -762,7 +765,7 @@ header {
     max-width: 566px;
   }
 
-  #about-paragraph {
+  #about p {
     max-width: 566px;
   }
 
@@ -770,8 +773,14 @@ header {
     margin-top: 0;
   }
 
-  #contact > p {
+  #contact p {
     margin-top: 100px;
     min-width: 520px;
+  }
+}
+
+@keyframes rotation {
+  to {
+    transform: rotateZ(1080deg);
   }
 }
