@@ -11,10 +11,6 @@ main {
   width: auto;
 }
 
-p {
-  text-align: justify;
-}
-
 ul {
   list-style: none;
 }
