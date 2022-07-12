@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-body, main {
+body,
+main {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -59,8 +60,8 @@ header {
   background: #3c3a39;
   overflow: hidden;
   width: 100%;
-  width: -moz-available;          /* WebKit-based browsers will ignore this. */
-  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: -moz-available;
+  width: -webkit-fill-available;
   width: fill-available;
 }
 
