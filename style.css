@@ -15,6 +15,10 @@ ul {
   list-style: none;
 }
 
+i {
+  aria-hidden=”true”;
+}
+
 .button {
   font-family: "Inter", sans-serif;
   font-size: 17px;
