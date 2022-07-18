@@ -56,7 +56,6 @@ i {
 
 header {
   position: absolute;
-  height: 48px;
   background: #3c3a39;
   overflow: hidden;
   width: 100%;
@@ -71,10 +70,8 @@ header {
 
 .topnav a {
   font-family: 'Inter', sans-serif;
-  font-style: normal;
   text-decoration: none;
   font-size: 15px;
-  line-height: 20px;
   color: #fff;
   display: block;
   float: left;
@@ -96,13 +93,11 @@ header {
   animation-duration: 3s;
 }
 
-.topnav a.bars {
+.topnav .bars {
   float: right;
   display: block;
-}
-
-.fa-bars {
-  color: white;
+  font-size: 20px;
+  width: 50px;
 }
 
 #headline {
@@ -584,6 +579,10 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    padding: 0 20px;
+  }
+
   #headline {
     background-position: 100% 110%;
   }
@@ -720,10 +719,6 @@ header {
     display: none;
   }
 
-  .topnav a.bars {
-    display: none;
-  }
-
   #headline {
     height: 870px;
     background-position: 100% 110%;
@@ -776,6 +771,28 @@ header {
   #contact p {
     margin-top: 100px;
     min-width: 520px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.visible a.bars {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  .topnav.visible .bars {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+
+  .topnav.visible > #nav-links {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    height: auto;
+    width: 100%;
   }
 }
 
