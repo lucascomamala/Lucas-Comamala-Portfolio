@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function menuFunction() {
   const y = document.querySelector('.bars');
   const nav = document.getElementById('myTopnav');
@@ -9,3 +10,4 @@ function menuFunction() {
     y.innerHTML('&#9776;');
   }
 }
+/* eslint-disable no-unused-vars */
