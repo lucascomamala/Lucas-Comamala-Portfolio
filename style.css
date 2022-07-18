@@ -55,9 +55,6 @@ header {
   background: #3c3a39;
   overflow: hidden;
   width: 100%;
-  width: -moz-available;
-  width: -webkit-fill-available;
-  width: fill-available;
 }
 
 #nav-links {
