@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-function menuFunction() {
+function menuFunction() { // eslint-disable-line no-unused-vars
   const y = document.querySelector('.bars');
   const nav = document.getElementById('myTopnav');
   if (nav.className === 'topnav') {
@@ -10,4 +9,3 @@ function menuFunction() {
     y.innerHTML('&#9776;');
   }
 }
-/* eslint-disable no-unused-vars */
