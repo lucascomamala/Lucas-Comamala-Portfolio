@@ -821,7 +821,7 @@ a.logo {
     right: 20px;
   }
 
-  hr.menu-separator {
+  .topnav.visible hr.menu-separator {
     display: block;
   }
 
