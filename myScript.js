@@ -1,6 +1,6 @@
 const nav = document.getElementById('myTopnav');
 const bars = document.getElementById('bars');
-const links = document.querySelectorAll(".nav-link");
+const links = document.querySelectorAll('.nav-link');
 
 function menuFunction() {
   if (nav.className === 'topnav') {
@@ -14,7 +14,7 @@ function menuFunction() {
 
 bars.addEventListener('click', menuFunction);
 
-links.forEach(el => el.addEventListener("click", function(e) {
+links.forEach((el) => el.addEventListener('click', function() {
   nav.classList.remove('visible');
   bars.innerHTML = '&#9776;';
 }));

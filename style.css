@@ -713,7 +713,7 @@ a.logo {
   #nav-links {
     display: block;
     float: right;
-    height: 52px;
+    height: 55px;
   }
 
   #nav-links > a {
@@ -783,7 +783,6 @@ a.logo {
   .topnav.visible a.bars {
     right: 0;
   }
-
 }
 
 @media screen and (max-width: 1069px) {
