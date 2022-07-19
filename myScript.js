@@ -14,7 +14,6 @@ function menuFunction() {
 
 bars.addEventListener('click', menuFunction);
 
-links.forEach((el) => el.addEventListener('click', function() {
-  nav.classList.remove('visible');
-  bars.innerHTML = '&#9776;';
-}));
+links.forEach((el) => el.addEventListener('click', () =>
+  nav.classList.remove('visible'); bars.innerHTML = '&#9776;';
+));
