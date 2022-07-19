@@ -1,11 +1,20 @@
-function menuFunction() { // eslint-disable-line no-unused-vars
-  const y = document.querySelector('.bars');
-  const nav = document.getElementById('myTopnav');
+const nav = document.getElementById('myTopnav');
+const bars = document.getElementById('bars');
+const links = document.querySelectorAll(".nav-link");
+
+function menuFunction() {
   if (nav.className === 'topnav') {
     nav.classList.add('visible');
-    y.innerHTML('&#10006;');
+    bars.innerHTML = '&#10006;';
   } else {
     nav.classList.remove('visible');
-    y.innerHTML('&#9776;');
+    bars.innerHTML = '&#9776;';
   }
 }
+
+bars.addEventListener('click', menuFunction);
+
+links.forEach(el => el.addEventListener("click", function(e) {
+  nav.classList.remove('visible');
+  bars.innerHTML = '&#9776;';
+}));
