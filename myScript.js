@@ -159,3 +159,30 @@ window.onclick = function closeB(event) {
     modalContent.innerHTML = '';
   }
 };
+
+/* Local Storage Implementation */
+const nameEl = document.getElementById('user_name');
+const emailEl = document.getElementById('user_email');
+const msgEl = document.getElementById('user_msg');
+
+function buildStorage() {
+  const storageObj = {
+    name: nameEl.value,
+    email: emailEl.value,
+    msg: msgEl.value,
+  };
+
+  localStorage.setItem('data', JSON.stringify(storageObj));
+}
+
+nameEl.addEventListener('input', buildStorage);
+emailEl.addEventListener('input', buildStorage);
+msgEl.addEventListener('input', buildStorage);
+
+// Loads saved content into the form
+window.addEventListener('load', () => {
+  const restored = JSON.parse(localStorage.getItem('data'));
+  nameEl.value = restored.name;
+  emailEl.value = restored.email;
+  msgEl.value = restored.msg;
+});
