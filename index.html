@@ -196,7 +196,7 @@
           <label for="user_name">Full Name</label>
         </div>
         <div class="user-box">
-          <input id="user_email" type="email" name="user_email" placeholder=" " required />
+          <input id="user_email" type="text" name="user_email" placeholder=" " pattern="\b[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}\b" required />
           <label for="user_email">Email addres</label>
         </div>
         <textarea aria-label="Message" id="user_msg" name="user_msg" placeholder="Enter text here" required></textarea>
