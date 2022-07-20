@@ -678,6 +678,7 @@ a.logo {
   padding: 10px;
   color: #505f79;
 }
+
 @media only screen and (min-width: 768px) {
   header {
     padding: 0 20px;
@@ -803,6 +804,7 @@ a.logo {
     align-items: flex-start;
   }
 }
+
 @media only screen and (min-width: 1069px) {
   header {
     position: fixed;
@@ -967,6 +969,7 @@ a.logo {
     padding-bottom: 10px;
   }
 }
+
 @keyframes rotation {
   to {
     transform: rotateZ(1080deg);

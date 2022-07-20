@@ -146,13 +146,13 @@ for (let i = 0; i < btns.length; i += 1) {
 }
 
 // When the user clicks the button, open the modal
-span.onclick = function () {
+span.onclick = function closeA() {
   modal.style.display = 'none';
   modalContent.innerHTML = '';
-}
+};
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
+window.onclick = function closeB(event) {
   if (event.target === modal) {
     modal.style.display = 'none';
     modalContent.innerHTML = '';
