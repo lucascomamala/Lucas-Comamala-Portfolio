@@ -25,7 +25,8 @@ const btns = document.querySelectorAll('#mainp-button, .otherp-button');
 const span = document.getElementsByClassName('close')[0];
 
 // Project list
-const projects = [{
+const projects = [
+{
   title: 'Multi Post Stories',
   techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
   ftImage: './media/placeholder.png',
