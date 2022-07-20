@@ -93,7 +93,7 @@ let liveBtn;
 let srcBtn;
 
 for (let i = 0; i < btns.length; i += 1) {
-  btns[i].onclick = function () {
+  btns[i].onclick = function createModal() { // eslint-disable-line no-loop-func
     modal.style.display = 'block';
 
     title = document.createElement('h3');
