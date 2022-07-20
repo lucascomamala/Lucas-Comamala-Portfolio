@@ -25,7 +25,8 @@ const btns = document.querySelectorAll('#mainp-button, .otherp-button');
 const span = document.getElementsByClassName('close')[0];
 
 // Project list
-const projects = [{
+const projects = [
+{
   title: 'Multi Post Stories',
   techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
   ftImage: './media/placeholder.png',
@@ -80,7 +81,7 @@ const projects = [{
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
   source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-}
+},
 ];
 
 // Loop that dinamtcally builds a modal for each button
@@ -93,7 +94,7 @@ let liveBtn;
 let srcBtn;
 
 for (let i = 0; i < btns.length; i += 1) {
-  btns[i].onclick = function() {
+  btns[i].onclick = function () {
     modal.style.display = 'block';
 
     title = document.createElement('h3');
@@ -103,9 +104,9 @@ for (let i = 0; i < btns.length; i += 1) {
     tags = document.createElement('div');
     tags.setAttribute('class', 'modal-tags');
     projects[i].techs.forEach((t, j) => {
-      var el = document.createElement('span');
-      el.appendChild(document.createTextNode(projects[i].techs[j]));
-      tags.appendChild(el);
+      let span = document.createElement('span');
+      span.appendChild(document.createTextNode(projects[i].techs[j]));
+      tags.appendChild(span);
     });
 
     img = document.createElement('img');
@@ -123,7 +124,7 @@ for (let i = 0; i < btns.length; i += 1) {
     liveBtn = document.createElement('button');
     liveBtn.setAttribute('class', 'button live');
     liveBtn.setAttribute('type', 'button');
-    liveBtn.setAttribute('onclick', 'location.href=\'' + projects[i].live + '\';');
+    liveBtn.setAttribute('onclick', 'location.href=" ${projects[i].live} ";');
     liveBtn.innerHTML = 'See Live <i class="fa-solid fa-fire"></i>';
 
     srcBtn = document.createElement('button');
@@ -142,20 +143,19 @@ for (let i = 0; i < btns.length; i += 1) {
     tree.appendChild(links);
 
     modalContent.appendChild(tree);
-    console.log(projects[i]);
   }
 }
 
 // When the user clicks the button, open the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = 'none';
   modalContent.innerHTML = '';
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
+window.onclick = function (event) {
+  if (event.target === modal) {
     modal.style.display = 'none';
     modalContent.innerHTML = '';
   }
-}
+};
