@@ -31,7 +31,7 @@ const projects = [{
   ftImage: './media/placeholder.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 },
 {
   title: 'Project 2',
@@ -39,7 +39,7 @@ const projects = [{
   ftImage: './media/placeholder2.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 },
 {
   title: 'Another Project',
@@ -47,7 +47,7 @@ const projects = [{
   ftImage: './media/placeholder.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 },
 {
   title: 'Even More Projects',
@@ -55,7 +55,7 @@ const projects = [{
   ftImage: './media/placeholder2.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 },
 {
   title: 'Project 3',
@@ -63,7 +63,7 @@ const projects = [{
   ftImage: './media/placeholder.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 },
 {
   title: 'Project X',
@@ -71,7 +71,7 @@ const projects = [{
   ftImage: './media/placeholder2.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 },
 {
   title: 'I\'m tired',
@@ -79,9 +79,9 @@ const projects = [{
   ftImage: './media/placeholder.png',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio'
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
 }
-]
+];
 
 // Loop that dinamtcally builds a modal for each button
 let title;
@@ -94,42 +94,42 @@ let srcBtn;
 
 for (let i = 0; i < btns.length; i += 1) {
   btns[i].onclick = function() {
-    modal.style.display = "block";
+    modal.style.display = 'block';
 
-    title = document.createElement("h3");
-    title.setAttribute("class", "modal-title");
+    title = document.createElement('h3');
+    title.setAttribute('class', 'modal-title');
     title.appendChild(document.createTextNode(projects[i].title));
 
-    tags = document.createElement("div");
-    tags.setAttribute("class", "modal-tags");
+    tags = document.createElement('div');
+    tags.setAttribute('class', 'modal-tags');
     projects[i].techs.forEach((t, j) => {
-      var el = document.createElement("span");
+      var el = document.createElement('span');
       el.appendChild(document.createTextNode(projects[i].techs[j]));
       tags.appendChild(el);
     });
 
-    img = document.createElement("img");
-    img.setAttribute("class", "modal-img");
-    img.setAttribute("src", projects[i].ftImage);
-    img.setAttribute("alt", "Project image");
+    img = document.createElement('img');
+    img.setAttribute('class', 'modal-img');
+    img.setAttribute('src', projects[i].ftImage);
+    img.setAttribute('alt', 'Project image');
 
-    desc = document.createElement("p");
-    desc.setAttribute("class", "modal-p");
+    desc = document.createElement('p');
+    desc.setAttribute('class', 'modal-p');
     desc.appendChild(document.createTextNode(projects[i].description));
 
-    links = document.createElement("div");
-    links.setAttribute("class", "modal-btns");
+    links = document.createElement('div');
+    links.setAttribute('class', 'modal-btns');
 
-    liveBtn = document.createElement("button");
-    liveBtn.setAttribute("class", "button live");
-    liveBtn.setAttribute("type", "button");
-    liveBtn.setAttribute("onclick", "location.href='" + projects[i].live + "';");
+    liveBtn = document.createElement('button');
+    liveBtn.setAttribute('class', 'button live');
+    liveBtn.setAttribute('type', 'button');
+    liveBtn.setAttribute('onclick', 'location.href=\'' + projects[i].live + '\';');
     liveBtn.innerHTML = 'See Live <i class="fa-solid fa-fire"></i>';
 
-    srcBtn = document.createElement("button");
-    srcBtn.setAttribute("class", "button source");
-    srcBtn.setAttribute("type", "button");
-    srcBtn.setAttribute("onclick", "location.href='" + projects[i].source + "';");
+    srcBtn = document.createElement('button');
+    srcBtn.setAttribute('class', 'button source');
+    srcBtn.setAttribute('type', 'button');
+    srcBtn.setAttribute('onclick', 'location.href=\'' + projects[i].source + '\';');
     srcBtn.innerHTML = 'See Source <i class="fa-brands fa-github"></i>';
 
     links.appendChild(liveBtn);
@@ -148,14 +148,14 @@ for (let i = 0; i < btns.length; i += 1) {
 
 // When the user clicks the button, open the modal
 span.onclick = function() {
-  modal.style.display = "none";
-  modalContent.innerHTML = "";
+  modal.style.display = 'none';
+  modalContent.innerHTML = '';
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
-    modalContent.innerHTML = "";
+    modal.style.display = 'none';
+    modalContent.innerHTML = '';
   }
 }

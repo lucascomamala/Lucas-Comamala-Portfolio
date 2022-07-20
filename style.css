@@ -351,7 +351,7 @@ a.logo {
   display: none;
   position: fixed;
   z-index: 2;
-  padding-top: 100px;
+  padding-top: 30px;
   left: 0;
   top: 0;
   width: 100%;
@@ -436,8 +436,8 @@ a.logo {
 
 .close {
   position: absolute;
-  top: 13%;
-  left: 83%;
+  top: 5%;
+  left: 84%;
   color: #aaa;
   float: right;
   font-size: 36px;
@@ -678,7 +678,6 @@ a.logo {
   padding: 10px;
   color: #505f79;
 }
-
 @media only screen and (min-width: 768px) {
   header {
     padding: 0 20px;
@@ -804,7 +803,6 @@ a.logo {
     align-items: flex-start;
   }
 }
-
 @media only screen and (min-width: 1069px) {
   header {
     position: fixed;
@@ -860,6 +858,10 @@ a.logo {
     margin-right: 100px;
   }
 
+  .modal {
+    padding-top: 100px;
+  }
+
   .modal-content {
     grid-template-columns: 60% 40%;
   }
@@ -878,10 +880,17 @@ a.logo {
 
   .modal-p {
     grid-area: 3 / 2 / span 1 / span 1;
+    margin-top: 0;
   }
 
   .modal-btns {
     grid-area: 4 / 2 / span 1 / span 1;
+    align-self: end;
+  }
+
+  .close {
+    top: 13%;
+    left: 83%;
   }
 }
 
@@ -958,7 +967,6 @@ a.logo {
     padding-bottom: 10px;
   }
 }
-
 @keyframes rotation {
   to {
     transform: rotateZ(1080deg);
