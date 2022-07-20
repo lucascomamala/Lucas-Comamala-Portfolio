@@ -26,61 +26,61 @@ const span = document.getElementsByClassName('close')[0];
 
 // Project list
 const projects = [{
-    title: 'Multi Post Stories',
-    techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
-    ftImage: './media/placeholder.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
-  {
-    title: 'Project 2',
-    techs: ['HTML', 'CSS', 'Javascript'],
-    ftImage: './media/placeholder2.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
-  {
-    title: 'Another Project',
-    techs: ['Java', 'SpringBoot'],
-    ftImage: './media/placeholder.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
-  {
-    title: 'Even More Projects',
-    techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
-    ftImage: './media/placeholder2.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
-  {
-    title: 'Project 3',
-    techs: ['Python', 'SQL'],
-    ftImage: './media/placeholder.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
-  {
-    title: 'Project X',
-    techs: ['Azucar', 'Flores', 'Muchos Colores'],
-    ftImage: './media/placeholder2.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
-  {
-    title: 'I\'m tired',
-    techs: ['Blood', 'Sweat', 'Tears'],
-    ftImage: './media/placeholder.png',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
-    source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
-  },
+  title: 'Multi Post Stories',
+  techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
+  ftImage: './media/placeholder.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
+{
+  title: 'Project 2',
+  techs: ['HTML', 'CSS', 'Javascript'],
+  ftImage: './media/placeholder2.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
+{
+  title: 'Another Project',
+  techs: ['Java', 'SpringBoot'],
+  ftImage: './media/placeholder.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
+{
+  title: 'Even More Projects',
+  techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
+  ftImage: './media/placeholder2.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
+{
+  title: 'Project 3',
+  techs: ['Python', 'SQL'],
+  ftImage: './media/placeholder.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
+{
+  title: 'Project X',
+  techs: ['Azucar', 'Flores', 'Muchos Colores'],
+  ftImage: './media/placeholder2.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
+{
+  title: 'I\'m tired',
+  techs: ['Blood', 'Sweat', 'Tears'],
+  ftImage: './media/placeholder.png',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  live: 'https://lucascomamala.github.io/Lucas-Comamala-Portfolio/',
+  source: 'https://github.com/lucascomamala/Lucas-Comamala-Portfolio',
+},
 ];
 
 // Loop that dinamtcally builds a modal for each button
@@ -93,7 +93,7 @@ let liveBtn;
 let srcBtn;
 
 for (let i = 0; i < btns.length; i += 1) {
-  btns[i].onclick = function() {
+  btns[i].onclick = function () {
     modal.style.display = 'block';
 
     title = document.createElement('h3');
@@ -103,7 +103,7 @@ for (let i = 0; i < btns.length; i += 1) {
     tags = document.createElement('div');
     tags.setAttribute('class', 'modal-tags');
     projects[i].techs.forEach((t, j) => {
-      let span = document.createElement('span');
+      const span = document.createElement('span');
       span.appendChild(document.createTextNode(projects[i].techs[j]));
       tags.appendChild(span);
     });
@@ -142,17 +142,17 @@ for (let i = 0; i < btns.length; i += 1) {
     tree.appendChild(links);
 
     modalContent.appendChild(tree);
-  }
+  };
 }
 
 // When the user clicks the button, open the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = 'none';
   modalContent.innerHTML = '';
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target === modal) {
     modal.style.display = 'none';
     modalContent.innerHTML = '';
