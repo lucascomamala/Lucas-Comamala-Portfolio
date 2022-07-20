@@ -25,8 +25,7 @@ const btns = document.querySelectorAll('#mainp-button, .otherp-button');
 const span = document.getElementsByClassName('close')[0];
 
 // Project list
-const projects = [
-{
+const projects = [{
   title: 'Multi Post Stories',
   techs: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
   ftImage: './media/placeholder.png',
@@ -163,7 +162,7 @@ window.onclick = function closeB(event) {
 /* Form Validation */
 const email = document.getElementById('user_email');
 
-email.addEventListener('input', function (event) {
+email.addEventListener('input', () => {
   if (email.validity.patternMismatch) {
     email.setCustomValidity('I am expecting an e-mail address in all lower case!');
     email.reportValidity();
