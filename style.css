@@ -343,14 +343,6 @@ a.logo {
   background: rgba(255, 255, 255, 0.24);
 }
 
-.mainp-tags span:hover {
-  background-color: rgb(214, 214, 214);
-}
-
-.otherp-tags span:hover {
-  background-color: rgb(214, 214, 214);
-}
-
 .otherp-button {
   width: 327px;
 }
@@ -365,8 +357,8 @@ a.logo {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
@@ -380,10 +372,10 @@ a.logo {
 }
 
 .modal-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 20px;
   grid-area: 1 / 1 / span 1 / span 1;
 }
@@ -409,6 +401,14 @@ a.logo {
   color: #091e42;
   border: 1px solid #8993a4;
   background: #fff;
+}
+
+.mainp-tags span:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.otherp-tags span:hover {
+  background-color: rgb(214, 214, 214);
 }
 
 .modal-tags span:hover {
@@ -438,7 +438,7 @@ a.logo {
   position: absolute;
   top: 13%;
   left: 83%;
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 36px;
   font-weight: bold;
@@ -678,6 +678,7 @@ a.logo {
   padding: 10px;
   color: #505f79;
 }
+
 @media only screen and (min-width: 768px) {
   header {
     padding: 0 20px;
@@ -803,6 +804,7 @@ a.logo {
     align-items: flex-start;
   }
 }
+
 @media only screen and (min-width: 1069px) {
   header {
     position: fixed;
@@ -882,6 +884,7 @@ a.logo {
     grid-area: 4 / 2 / span 1 / span 1;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   #headline-description {
     max-width: 566px;
@@ -900,11 +903,13 @@ a.logo {
     min-width: 520px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .topnav.visible a.bars {
     right: 0;
   }
 }
+
 @media screen and (max-width: 1069px) {
   .topnav.visible {
     position: absolute;
@@ -953,6 +958,7 @@ a.logo {
     padding-bottom: 10px;
   }
 }
+
 @keyframes rotation {
   to {
     transform: rotateZ(1080deg);
